@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html class="dark" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no" name="viewport"/>
+<title>Stall Booking | HSS 2026 – Hyderabad Startup Summit</title>
+<meta name="description" content="Showcase your startup at Hyderabad Startup Summit 2026. Book a stall at Shubham Convention, Nagole on April 19th and connect with 1500+ founders, investors & students."/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+  tailwind.config = {
+    darkMode: "class",
+    theme: {
+      extend: {
+        colors: {
+          "primary": "#3B82F6",
+          "primary-dim": "#2563EB",
+          "secondary": "#6366F1",
+          "secondary-dim": "#4F46E5",
+          "tertiary": "#60A5FA",
+          "background": "#0A0F1C",
+          "surface": "#111827",
+          "surface-variant": "#1F2937",
+          "on-surface": "#F9FAFB",
+          "on-surface-variant": "#D1D5DB",
+          "outline-variant": "rgba(255, 255, 255, 0.06)",
+          "primary-fixed": "#3B82F6",
+          "on-primary-fixed": "#FFFFFF",
+        },
+        fontFamily: {
+          "headline": ["Plus Jakarta Sans"],
+          "body": ["Inter"],
+          "label": ["Inter"]
+        },
+        borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+      },
+    },
+  }
+</script>
+<style>
+  html, body {
+    overflow-x: hidden !important;
+    width: 100%;
+    position: relative;
+    touch-action: pan-y;
+  }
+  .glass-card {
+    background: rgba(17, 24, 39, 0.4);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+  }
+  .text-glow {
+    text-shadow: 0 0 15px rgba(59, 130, 246, 0.4);
+  }
+  .bg-mesh {
+    background-image:
+      radial-gradient(at 0% 0%, rgba(59, 130, 246, 0.07) 0, transparent 50%),
+      radial-gradient(at 100% 100%, rgba(99, 102, 241, 0.07) 0, transparent 50%);
+  }
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(16px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+  .fade-in { animation: fadeIn 0.7s ease-out forwards; }
+  .stall-card:hover { box-shadow: 0 0 40px rgba(59,130,246,0.12); }
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+  }
+</style>
+</head>
+<body class="bg-background text-on-surface font-body selection:bg-primary/30 overflow-x-hidden">
+
+<!-- ── NAV ──────────────────────────────────────────────── -->
+<nav class="fixed top-0 w-full z-50 bg-[#0A0F1C]/40 backdrop-blur-xl shadow-[0_8px_32px_0_rgba(59,130,246,0.08)]">
+  <div class="flex justify-between items-center px-8 py-4 max-w-7xl mx-auto">
+    <a href="./index.html" class="text-2xl font-black tracking-tighter text-[#3B82F6] uppercase font-headline hover:opacity-80 transition-opacity">
+      HSS 2026
+    </a>
+    <div class="hidden md:flex items-center gap-8 font-headline tracking-tight font-bold text-[#F9FAFB]">
+      <a class="text-[#D1D5DB] hover:text-[#F9FAFB] transition-colors" href="./index.html#about">About</a>
+      <a class="text-[#D1D5DB] hover:text-[#F9FAFB] transition-colors" href="./index.html#panels">Panels</a>
+      <a class="text-[#D1D5DB] hover:text-[#F9FAFB] transition-colors" href="./index.html#speakers">Speakers</a>
+      <a class="text-[#D1D5DB] hover:text-[#F9FAFB] transition-colors" href="./index.html#schedule">Schedule</a>
+      <a class="text-[#D1D5DB] hover:text-[#F9FAFB] transition-colors" href="./index.html#tickets">Tickets</a>
+      <a class="text-primary font-bold" href="./stalls.html">Stalls</a>
+    </div>
+    <a href="https://wa.me/919032305209?text=Hi%2C%20I%20want%20to%20book%20a%20stall%20at%20HSS%202026" target="_blank"
+       class="bg-gradient-to-r from-primary to-primary-dim text-white px-6 py-2.5 rounded-full font-bold active:scale-95 duration-200 transition-all hover:shadow-[0_0_20px_rgba(59,130,246,0.4)] flex items-center gap-2">
+      Book a Stall
+      <span class="material-symbols-outlined text-sm">storefront</span>
+    </a>
+  </div>
+</nav>
+
+<main>
+
+  <!-- ── HERO ─────────────────────────────────────────────── -->
+  <section class="relative min-h-[70vh] flex flex-col items-center justify-center pt-28 pb-16 px-6 bg-mesh overflow-hidden">
+    <div class="absolute inset-0 pointer-events-none">
+      <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[700px] bg-primary/5 rounded-full blur-[140px]"></div>
+      <div class="absolute top-1/4 right-1/4 w-[400px] h-[400px] bg-secondary/5 rounded-full blur-[100px]"></div>
+    </div>
+    <div class="relative z-10 text-center max-w-4xl mx-auto fade-in">
+      <span class="badge bg-primary/10 text-primary border border-primary/20 mb-6 inline-flex">
+        🚀 Limited Spots Available
+      </span>
+      <h1 class="text-4xl md:text-6xl lg:text-7xl font-headline font-extrabold tracking-tight mb-6 leading-tight">
+        <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#F9FAFB] via-[#3B82F6] to-[#6366F1]">
+          Showcase Your Startup
+        </span>
+      </h1>
+      <p class="text-on-surface-variant text-lg md:text-xl leading-relaxed mb-4 font-medium max-w-2xl mx-auto">
+        at <span class="text-primary font-bold">Hyderabad Startup Summit 2026</span>
+      </p>
+      <div class="flex flex-wrap items-center justify-center gap-4 text-sm text-on-surface-variant mb-10">
+        <span class="flex items-center gap-1.5">
+          <span class="material-symbols-outlined text-primary text-base">calendar_month</span>
+          April 19th, 2026
+        </span>
+        <span class="w-1 h-1 rounded-full bg-white/20"></span>
+        <span class="flex items-center gap-1.5">
+          <span class="material-symbols-outlined text-primary text-base">location_on</span>
+          Shubham Convention, Nagole
+        </span>
+        <span class="w-1 h-1 rounded-full bg-white/20"></span>
+        <span class="flex items-center gap-1.5">
+          <span class="material-symbols-outlined text-primary text-base">groups</span>
+          1500+ Attendees
+        </span>
+      </div>
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+        <a href="#packages"
+           class="group bg-gradient-to-r from-primary to-secondary text-white font-bold px-10 py-4 rounded-full transition-all hover:scale-105 hover:shadow-[0_0_30px_rgba(59,130,246,0.4)] flex items-center gap-2">
+          View Stall Packages
+          <span class="material-symbols-outlined group-hover:translate-y-0.5 transition-transform">arrow_downward</span>
+        </a>
+        <a href="https://wa.me/919032305209?text=Hi%2C%20I%20want%20to%20book%20a%20stall%20at%20HSS%202026" target="_blank"
+           class="flex items-center gap-2 px-10 py-4 rounded-full border border-white/10 text-on-surface font-semibold bg-transparent transition-all hover:bg-white/5">
+          Contact Us
+          <span class="material-symbols-outlined text-sm">chat</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── WHO YOU'LL REACH ──────────────────────────────────── -->
+  <section class="py-24 px-6" id="audience">
+    <div class="max-w-7xl mx-auto">
+      <div class="text-center mb-14">
+        <span class="font-label text-xs tracking-[0.2em] uppercase font-bold text-secondary mb-4 block">Your Audience</span>
+        <h2 class="font-headline text-4xl md:text-5xl font-bold mb-4">
+          Who You'll <span class="text-primary">Reach</span>
+        </h2>
+        <p class="text-on-surface-variant text-lg max-w-xl mx-auto">
+          Connect face-to-face with <span class="text-primary font-bold">1500+</span> of the most motivated people in Hyderabad's startup ecosystem.
+        </p>
+      </div>
+      <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-4">
+        <!-- Card -->
+        <div class="glass-card rounded-2xl p-6 flex flex-col items-center text-center gap-3 hover:-translate-y-1 transition-all duration-300 group">
+          <span class="text-3xl">🚀</span>
+          <span class="font-medium text-sm text-on-surface-variant group-hover:text-on-surface transition-colors">Startup Founders</span>
+        </div>
+        <div class="glass-card rounded-2xl p-6 flex flex-col items-center text-center gap-3 hover:-translate-y-1 transition-all duration-300 group">
+          <span class="text-3xl">💼</span>
+          <span class="font-medium text-sm text-on-surface-variant group-hover:text-on-surface transition-colors">Entrepreneurs & Business Owners</span>
+        </div>
+        <div class="glass-card rounded-2xl p-6 flex flex-col items-center text-center gap-3 hover:-translate-y-1 transition-all duration-300 group">
+          <span class="text-3xl">💰</span>
+          <span class="font-medium text-sm text-on-surface-variant group-hover:text-on-surface transition-colors">Investors & VCs</span>
+        </div>
+        <div class="glass-card rounded-2xl p-6 flex flex-col items-center text-center gap-3 hover:-translate-y-1 transition-all duration-300 group">
+          <span class="text-3xl">🌱</span>
+          <span class="font-medium text-sm text-on-surface-variant group-hover:text-on-surface transition-colors">Aspiring Founders</span>
+        </div>
+        <div class="glass-card rounded-2xl p-6 flex flex-col items-center text-center gap-3 hover:-translate-y-1 transition-all duration-300 group">
+          <span class="text-3xl">🎓</span>
+          <span class="font-medium text-sm text-on-surface-variant group-hover:text-on-surface transition-colors">Students in Startups</span>
+        </div>
+        <div class="glass-card rounded-2xl p-6 flex flex-col items-center text-center gap-3 hover:-translate-y-1 transition-all duration-300 group">
+          <span class="text-3xl">🤝</span>
+          <span class="font-medium text-sm text-on-surface-variant group-hover:text-on-surface transition-colors">Builders & Creators</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── STALL PACKAGES ─────────────────────────────────────── -->
+  <section class="py-24 px-6 relative" id="packages">
+    <div class="absolute left-1/2 -translate-x-1/2 top-0 w-[900px] h-[600px] bg-primary/4 rounded-full blur-[140px] pointer-events-none"></div>
+    <div class="max-w-7xl mx-auto relative z-10">
+      <div class="text-center mb-14">
+        <span class="font-label text-xs tracking-[0.2em] uppercase font-bold text-secondary mb-4 block">Choose Your Space</span>
+        <h2 class="font-headline text-4xl md:text-5xl font-bold mb-4">
+          Stall <span class="text-primary">Packages</span>
+        </h2>
+        <p class="text-on-surface-variant text-lg max-w-xl mx-auto">
+          All stalls run from <strong class="text-on-surface">10:00 AM – 5:00 PM</strong>. We provide the space; you bring the energy.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+        <!-- Small Stall -->
+        <div class="stall-card glass-card rounded-[2rem] p-10 flex flex-col transition-all duration-300 hover:-translate-y-2 relative overflow-hidden group">
+          <div class="absolute left-0 top-8 bottom-8 w-1.5 bg-gradient-to-b from-tertiary to-primary rounded-r-full"></div>
+          <span class="badge bg-tertiary/10 text-tertiary border border-tertiary/20 mb-6 self-start">Small Stall</span>
+          <div class="flex items-baseline gap-1 mb-1">
+            <span class="text-2xl font-medium text-on-surface-variant">₹</span>
+            <span class="text-6xl font-black font-headline text-on-surface text-glow">5,000</span>
+          </div>
+          <p class="text-sm text-on-surface-variant mb-8">One-time booking fee</p>
+          <ul class="space-y-4 mb-10 flex-1">
+            <li class="flex items-center gap-3 text-on-surface-variant group-hover:text-on-surface transition-colors">
+              <span class="material-symbols-outlined text-primary text-lg">straighten</span>
+              <span>Size: <strong class="text-on-surface">4 ft × 4 ft</strong></span>
+            </li>
+            <li class="flex items-center gap-3 text-on-surface-variant group-hover:text-on-surface transition-colors">
+              <span class="material-symbols-outlined text-primary text-lg">group</span>
+              <span>Max <strong class="text-on-surface">3 team members</strong></span>
+            </li>
+            <li class="flex items-center gap-3 text-on-surface-variant group-hover:text-on-surface transition-colors">
+              <span class="material-symbols-outlined text-primary text-lg">schedule</span>
+              <span>10:00 AM – 5:00 PM</span>
+            </li>
+            <li class="flex items-center gap-3 text-on-surface-variant group-hover:text-on-surface transition-colors">
+              <span class="material-symbols-outlined text-primary text-lg">table_restaurant</span>
+              <span><strong class="text-on-surface">1 Table</strong> provided</span>
+            </li>
+            <li class="flex items-center gap-3 text-on-surface-variant group-hover:text-on-surface transition-colors">
+              <span class="material-symbols-outlined text-primary text-lg">home_work</span>
+              <span>Stall space provided</span>
+            </li>
+          </ul>
+          <a href="https://wa.me/919032305209?text=Hi%2C%20I%20want%20to%20book%20a%20Small%20Stall%20at%20HSS%202026" target="_blank"
+             class="w-full py-4 rounded-2xl bg-white/5 border border-white/10 text-on-surface-variant font-bold hover:bg-white/10 hover:text-white transition-all text-center flex items-center justify-center gap-2">
+            Book Small Stall
+            <span class="material-symbols-outlined text-lg">arrow_forward</span>
+          </a>
+        </div>
+
+        <!-- Big Stall (featured) -->
+        <div class="stall-card bg-gradient-to-br from-[#111827] to-[#1F2937] border-2 border-[#6366F1]/25 rounded-[2rem] p-10 flex flex-col transition-all duration-500 hover:-translate-y-3 relative overflow-hidden group scale-105 shadow-[0_30px_60px_-15px_rgba(0,0,0,0.5)]">
+          <div class="absolute top-5 right-6">
+            <span class="bg-[#6366F1]/15 text-[#C7D2FE] border border-[#6366F1]/30 px-4 py-1.5 rounded-full text-[10px] font-black uppercase tracking-widest">
+              Most Popular
+            </span>
+          </div>
+          <div class="absolute left-0 top-8 bottom-8 w-1.5 bg-gradient-to-b from-primary via-secondary to-primary-dim rounded-r-full"></div>
+          <span class="badge bg-primary/10 text-primary border border-primary/20 mb-6 self-start">Big Stall</span>
+          <div class="flex items-baseline gap-1 mb-1">
+            <span class="text-2xl font-medium text-white/50">₹</span>
+            <span class="text-6xl font-black font-headline text-white text-glow">10,000</span>
+          </div>
+          <p class="text-sm text-on-surface-variant mb-8">One-time booking fee</p>
+          <ul class="space-y-4 mb-10 flex-1">
+            <li class="flex items-center gap-3 text-on-surface-variant group-hover:text-on-surface transition-colors">
+              <span class="material-symbols-outlined text-secondary text-lg">straighten</span>
+              <span class="text-white">Size: <strong>4 ft × 8 ft</strong></span>
+            </li>
+            <li class="flex items-center gap-3 text-on-surface-variant group-hover:text-on-surface transition-colors">
+              <span class="material-symbols-outlined text-secondary text-lg">group</span>
+              <span class="text-white">Max <strong>5 team members</strong></span>
+            </li>
+            <li class="flex items-center gap-3 text-on-surface-variant group-hover:text-on-surface transition-colors">
+              <span class="material-symbols-outlined text-secondary text-lg">schedule</span>
+              <span class="text-white">10:00 AM – 5:00 PM</span>
+            </li>
+            <li class="flex items-center gap-3 text-on-surface-variant group-hover:text-on-surface transition-colors">
+              <span class="material-symbols-outlined text-secondary text-lg">table_restaurant</span>
+              <span class="text-white"><strong>2 Tables</strong> provided</span>
+            </li>
+            <li class="flex items-center gap-3 text-on-surface-variant group-hover:text-on-surface transition-colors">
+              <span class="material-symbols-outlined text-secondary text-lg">home_work</span>
+              <span class="text-white">Stall space provided</span>
+            </li>
+          </ul>
+          <a href="https://wa.me/919032305209?text=Hi%2C%20I%20want%20to%20book%20a%20Big%20Stall%20at%20HSS%202026" target="_blank"
+             class="w-full bg-gradient-to-r from-primary to-secondary text-white py-4 rounded-2xl font-black shadow-[0_20px_40px_-15px_rgba(59,130,246,0.5)] hover:scale-105 active:scale-95 transition-all duration-300 text-center flex items-center justify-center gap-2">
+            Book Big Stall
+            <span class="material-symbols-outlined">arrow_forward</span>
+          </a>
+        </div>
+
+        <!-- Food Stall -->
+        <div class="stall-card glass-card rounded-[2rem] p-10 flex flex-col transition-all duration-300 hover:-translate-y-2 relative overflow-hidden group">
+          <div class="absolute left-0 top-8 bottom-8 w-1.5 bg-gradient-to-b from-amber-400 to-orange-500 rounded-r-full"></div>
+          <span class="badge bg-amber-400/10 text-amber-400 border border-amber-400/20 mb-6 self-start">Food Stall</span>
+          <div class="flex items-baseline gap-1 mb-1">
+            <span class="text-2xl font-medium text-on-surface-variant">₹</span>
+            <span class="text-5xl font-black font-headline text-on-surface">10,000+</span>
+          </div>
+          <p class="text-sm text-on-surface-variant mb-8">Starts from (depends on food category)</p>
+          <ul class="space-y-4 mb-10 flex-1">
+            <li class="flex items-center gap-3 text-on-surface-variant group-hover:text-on-surface transition-colors">
+              <span class="material-symbols-outlined text-amber-400 text-lg">home_work</span>
+              <span>Stall space provided</span>
+            </li>
+            <li class="flex items-center gap-3 text-on-surface-variant group-hover:text-on-surface transition-colors">
+              <span class="material-symbols-outlined text-amber-400 text-lg">outdoor_grill</span>
+              <span>Bring your own <strong class="text-on-surface">cooking setup</strong></span>
+            </li>
+            <li class="flex items-center gap-3 text-on-surface-variant group-hover:text-on-surface transition-colors">
+              <span class="material-symbols-outlined text-amber-400 text-lg">handyman</span>
+              <span>Bring your own <strong class="text-on-surface">equipment</strong></span>
+            </li>
+            <li class="flex items-center gap-3 text-on-surface-variant group-hover:text-on-surface transition-colors">
+              <span class="material-symbols-outlined text-amber-400 text-lg">grocery</span>
+              <span>Bring your own <strong class="text-on-surface">raw materials</strong></span>
+            </li>
+          </ul>
+          <a href="https://wa.me/919390771123?text=Hi%2C%20I%20want%20to%20book%20a%20Food%20Stall%20at%20HSS%202026" target="_blank"
+             class="w-full py-4 rounded-2xl bg-amber-400/10 border border-amber-400/20 text-amber-400 font-bold hover:bg-amber-400/20 transition-all text-center flex items-center justify-center gap-2">
+            Enquire Now
+            <span class="material-symbols-outlined text-lg">arrow_forward</span>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── IMPORTANT GUIDELINES ──────────────────────────────── -->
+  <section class="py-24 px-6" id="guidelines">
+    <div class="max-w-5xl mx-auto">
+      <div class="text-center mb-14">
+        <span class="font-label text-xs tracking-[0.2em] uppercase font-bold text-secondary mb-4 block">Please Read</span>
+        <h2 class="font-headline text-4xl md:text-5xl font-bold mb-4">
+          Important <span class="text-primary">Guidelines</span>
+        </h2>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+        <!-- What We Provide -->
+        <div class="glass-card rounded-2xl p-8">
+          <div class="flex items-center gap-3 mb-6">
+            <div class="w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center text-primary border border-primary/20">
+              <span class="material-symbols-outlined">check_circle</span>
+            </div>
+            <h3 class="font-headline text-xl font-bold">What We Provide</h3>
+          </div>
+          <ul class="space-y-4">
+            <li class="flex items-start gap-3 text-on-surface-variant">
+              <span class="material-symbols-outlined text-primary text-lg mt-0.5">home_work</span>
+              <span>Empty stall space</span>
+            </li>
+            <li class="flex items-start gap-3 text-on-surface-variant">
+              <span class="material-symbols-outlined text-primary text-lg mt-0.5">table_restaurant</span>
+              <span>Tables (1 for small, 2 for big stalls)</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- What We Don't Provide -->
+        <div class="glass-card rounded-2xl p-8 border-red-500/10">
+          <div class="flex items-center gap-3 mb-6">
+            <div class="w-10 h-10 rounded-xl bg-red-500/10 flex items-center justify-center text-red-400 border border-red-500/20">
+              <span class="material-symbols-outlined">cancel</span>
+            </div>
+            <h3 class="font-headline text-xl font-bold">We Do <span class="text-red-400">NOT</span> Provide</h3>
+          </div>
+          <ul class="space-y-4">
+            <li class="flex items-start gap-3 text-on-surface-variant">
+              <span class="material-symbols-outlined text-red-400 text-lg mt-0.5">close</span>
+              <span>Flex prints / banners</span>
+            </li>
+            <li class="flex items-start gap-3 text-on-surface-variant">
+              <span class="material-symbols-outlined text-red-400 text-lg mt-0.5">close</span>
+              <span>Branding materials</span>
+            </li>
+            <li class="flex items-start gap-3 text-on-surface-variant">
+              <span class="material-symbols-outlined text-red-400 text-lg mt-0.5">close</span>
+              <span>Standees / display boards</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Participant Responsibilities (full width) -->
+        <div class="glass-card rounded-2xl p-8 md:col-span-2">
+          <div class="flex items-center gap-3 mb-6">
+            <div class="w-10 h-10 rounded-xl bg-secondary/10 flex items-center justify-center text-secondary border border-secondary/20">
+              <span class="material-symbols-outlined">assignment_turned_in</span>
+            </div>
+            <h3 class="font-headline text-xl font-bold">Participant Responsibilities</h3>
+          </div>
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
+            <div class="flex items-start gap-3 text-on-surface-variant">
+              <span class="material-symbols-outlined text-secondary text-lg mt-0.5">luggage</span>
+              <span>Bring your own branding & setup materials</span>
+            </div>
+            <div class="flex items-start gap-3 text-on-surface-variant">
+              <span class="material-symbols-outlined text-secondary text-lg mt-0.5">palette</span>
+              <span>Decorate and design your own stall</span>
+            </div>
+            <div class="flex items-start gap-3 text-on-surface-variant">
+              <span class="material-symbols-outlined text-secondary text-lg mt-0.5">manage_accounts</span>
+              <span>Manage your stall throughout the event</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── WHY TAKE A STALL ──────────────────────────────────── -->
+  <section class="py-24 px-6 relative" id="why">
+    <div class="absolute right-0 top-0 w-[500px] h-[500px] bg-secondary/5 rounded-full blur-[120px] pointer-events-none"></div>
+    <div class="max-w-7xl mx-auto relative z-10">
+      <div class="text-center mb-14">
+        <span class="font-label text-xs tracking-[0.2em] uppercase font-bold text-secondary mb-4 block">The Opportunity</span>
+        <h2 class="font-headline text-4xl md:text-5xl font-bold mb-4">
+          Why Take a <span class="text-primary">Stall?</span>
+        </h2>
+      </div>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="glass-card rounded-2xl p-8 hover:-translate-y-1 transition-all duration-300 group">
+          <div class="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center text-primary border border-primary/20 mb-5 group-hover:bg-primary/20 transition-colors">
+            <span class="material-symbols-outlined text-2xl">people</span>
+          </div>
+          <h3 class="font-headline text-lg font-bold mb-2">1500+ Direct Connections</h3>
+          <p class="text-sm text-on-surface-variant leading-relaxed">Face-to-face access to founders, investors, and students in one room.</p>
+        </div>
+        <div class="glass-card rounded-2xl p-8 hover:-translate-y-1 transition-all duration-300 group">
+          <div class="w-12 h-12 rounded-xl bg-secondary/10 flex items-center justify-center text-secondary border border-secondary/20 mb-5 group-hover:bg-secondary/20 transition-colors">
+            <span class="material-symbols-outlined text-2xl">rocket_launch</span>
+          </div>
+          <h3 class="font-headline text-lg font-bold mb-2">Live Product Showcase</h3>
+          <p class="text-sm text-on-surface-variant leading-relaxed">Demo your product live and get real-time feedback from your target audience.</p>
+        </div>
+        <div class="glass-card rounded-2xl p-8 hover:-translate-y-1 transition-all duration-300 group">
+          <div class="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center text-primary border border-primary/20 mb-5 group-hover:bg-primary/20 transition-colors">
+            <span class="material-symbols-outlined text-2xl">trending_up</span>
+          </div>
+          <h3 class="font-headline text-lg font-bold mb-2">Generate Leads</h3>
+          <p class="text-sm text-on-surface-variant leading-relaxed">Convert curious visitors into real customers and build your pipeline in one day.</p>
+        </div>
+        <div class="glass-card rounded-2xl p-8 hover:-translate-y-1 transition-all duration-300 group">
+          <div class="w-12 h-12 rounded-xl bg-secondary/10 flex items-center justify-center text-secondary border border-secondary/20 mb-5 group-hover:bg-secondary/20 transition-colors">
+            <span class="material-symbols-outlined text-2xl">location_city</span>
+          </div>
+          <h3 class="font-headline text-lg font-bold mb-2">East Hyderabad Visibility</h3>
+          <p class="text-sm text-on-surface-variant leading-relaxed">Build brand visibility in East Hyderabad's growing startup ecosystem.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CONTACT ──────────────────────────────────────────── -->
+  <section class="py-24 px-6" id="contact">
+    <div class="max-w-3xl mx-auto text-center">
+      <span class="font-label text-xs tracking-[0.2em] uppercase font-bold text-secondary mb-4 block">Get in Touch</span>
+      <h2 class="font-headline text-4xl md:text-5xl font-bold mb-4">
+        Ready to <span class="text-primary">Book?</span>
+      </h2>
+      <p class="text-on-surface-variant text-lg mb-12">
+        Reach out to our team directly — we'll confirm your spot and share the next steps.
+      </p>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-12">
+        <!-- Vanshika -->
+        <a href="https://wa.me/919032305209?text=Hi%20Vanshika%2C%20I%20want%20to%20book%20a%20stall%20at%20HSS%202026" target="_blank"
+           class="glass-card rounded-2xl p-8 flex flex-col items-center gap-4 hover:-translate-y-1 hover:border-primary/30 transition-all duration-300 group cursor-pointer">
+          <div class="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center text-primary border border-primary/20 group-hover:bg-primary/20 transition-colors">
+            <span class="material-symbols-outlined text-2xl">person</span>
+          </div>
+          <div>
+            <h3 class="font-headline text-xl font-bold mb-1">Vanshika</h3>
+            <p class="text-primary font-bold text-lg">9032305209</p>
+          </div>
+          <span class="badge bg-green-400/10 text-green-400 border border-green-400/20">
+            <span class="material-symbols-outlined text-sm">chat</span> WhatsApp
+          </span>
+        </a>
+        <!-- Saiteja -->
+        <a href="https://wa.me/919390771123?text=Hi%20Saiteja%2C%20I%20want%20to%20book%20a%20stall%20at%20HSS%202026" target="_blank"
+           class="glass-card rounded-2xl p-8 flex flex-col items-center gap-4 hover:-translate-y-1 hover:border-primary/30 transition-all duration-300 group cursor-pointer">
+          <div class="w-14 h-14 rounded-full bg-secondary/10 flex items-center justify-center text-secondary border border-secondary/20 group-hover:bg-secondary/20 transition-colors">
+            <span class="material-symbols-outlined text-2xl">person</span>
+          </div>
+          <div>
+            <h3 class="font-headline text-xl font-bold mb-1">Saiteja</h3>
+            <p class="text-primary font-bold text-lg">9390771123</p>
+          </div>
+          <span class="badge bg-green-400/10 text-green-400 border border-green-400/20">
+            <span class="material-symbols-outlined text-sm">chat</span> WhatsApp
+          </span>
+        </a>
+      </div>
+      <!-- Big CTA -->
+      <a href="https://wa.me/919032305209?text=Hi%2C%20I%20want%20to%20book%20a%20stall%20at%20HSS%202026" target="_blank"
+         class="inline-flex items-center gap-3 bg-gradient-to-r from-primary to-secondary text-white font-black px-12 py-5 rounded-full text-lg shadow-[0_0_40px_rgba(59,130,246,0.3)] hover:scale-105 hover:shadow-[0_0_60px_rgba(59,130,246,0.4)] active:scale-95 transition-all duration-300">
+        Book Your Stall Now
+        <span class="material-symbols-outlined">storefront</span>
+      </a>
+    </div>
+  </section>
+
+</main>
+
+<!-- ── FOOTER ────────────────────────────────────────────── -->
+<footer class="bg-background w-full border-t border-white/5">
+  <div class="flex flex-col md:flex-row justify-between items-center px-12 py-16 w-full gap-8 max-w-7xl mx-auto">
+    <a href="./index.html" class="text-primary font-bold text-2xl font-headline tracking-tighter uppercase hover:opacity-80 transition-opacity">
+      HSS 2026
+    </a>
+    <div class="flex flex-col md:flex-row gap-8 items-center text-sm tracking-wide text-on-surface-variant font-body">
+      <a class="hover:text-primary transition-colors flex items-center gap-2" href="https://instagram.com/hyderabad.entrepreneurs.summit">
+        <span class="material-symbols-outlined text-xs">link</span> Instagram: @hyderabad.entrepreneurs.summit
+      </a>
+      <a class="hover:text-primary transition-colors flex items-center gap-2" href="mailto:sidhartha@ekthaa.app">
+        <span class="material-symbols-outlined text-xs">mail</span> Email: sidhartha@ekthaa.app
+      </a>
+    </div>
+    <div class="text-sm tracking-wide text-on-surface-variant opacity-60">
+      © 2026 Hyderabad Startup Summit. All rights reserved.
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
